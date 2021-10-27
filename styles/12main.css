@@ -11,8 +11,8 @@ body {
     font-size: 100%;
     width: 600px;
     margin: 0 auto;
-    border: 3px solid #69ddf1;
-    background-color: #4ab2ee;
+    border: 3px solid #ff7b00;
+    background-color: #000000;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -21,7 +21,7 @@ a:focus, a:hover {
 header {
 	padding-top: 1.5em;
 	padding-bottom: 2em;
-	border-bottom: 3px solid #69ddf1;
+	border-bottom: 3px solid #ff7b00;
 	background-image: linear-gradient(
 	    45deg, rgb(50, 6, 248) 0%, rgb(25, 0, 255) 30%, white 50%, rgb(0, 26, 255) 80%, rgb(29, 4, 255) 100%);
 }
