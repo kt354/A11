@@ -1,0 +1,104 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid #69ddf1;
+    background-color: #4ab2ee;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	border-bottom: 3px solid #69ddf1;
+	background-image: linear-gradient(
+	    45deg, rgb(50, 6, 248) 0%, rgb(25, 0, 255) 30%, white 50%, rgb(0, 26, 255) 80%, rgb(29, 4, 255) 100%);
+}
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #090080;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+	padding: 0 30px;
+}
+main h1 {
+	font-size: 150%;
+	border: 3px double #800000;
+	margin-bottom: .75em;
+	border-radius: 10px;
+	box-shadow: 5px 5px;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	background-color: white;
+	text-align: center;
+}
+main h2 {
+	color: #800000;
+	font-size: 130%;
+	padding-top: .5em;
+	padding-bottom: 0.25em;
+}
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+main img {
+	padding-bottom: 1em;
+}
+main p {
+	padding-bottom: .5em;
+}
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the footer */
+footer {
+	background-color:navy(115, 238, 141);
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
